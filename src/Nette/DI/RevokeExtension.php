@@ -21,7 +21,7 @@ final class RevokeExtension extends CompilerExtension
         return Expect::structure([
             'clientId' => Expect::int()->required(),
             'clientSecret' => Expect::string()->required(),
-            'api_url' => Expect::string()->default('https://discord.com/api/v8'),
+            'api_url' => Expect::string()->default('https://discord.com/api/v10'),
         ]);
     }
 
