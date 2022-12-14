@@ -17,7 +17,7 @@
       },
     "require": {
         "php": ">=7.4",
-        "nette/di": "~3.0.0",
+        "nette/di": "~3.0.0 || ~3.1.0",
         "ext-curl": "*"
      },
      "extra": {
